@@ -26,12 +26,13 @@ z= x**2
 plot(z)
 print(integrate((x**2)))
 print(((oo*-1)))
-print(solve(eq**2==3))
+print(solve(eq**2==3),
+#matplotlib'de plot grafik örneği
 a1= [1200,1300,1400]
 y1=[20,30,40]
 a2=a1= [1200,1300,1400]
 y2=[20,40,50]
-plt.plot(a1,y1, marker=".", markersize="20", markerfacecolor="red" ,linestyle="dashed", markeredgecolor= "blue", linewidth="5", color="black")
-plt.plot(a2,y2,marker=".", markersize="20", markerfacecolor="red" ,linestyle="dashed", markeredgecolor= "blue", linewidth="5", color="black")
+plt.plot(a1,y1, marker=".", markersize="20", markerfacecolor="red" ,linestyle="dashed", markeredgecolor= "blue", linewidth="5", color="yellow")
+plt.plot(a2,y2,marker=".", markersize="20", markerfacecolor="red" ,linestyle="dashed", markeredgecolor= "blue", linewidth="5", color="yellow")
 plt.show()
 

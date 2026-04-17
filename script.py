@@ -46,4 +46,5 @@ y3=[100,110,125,150]
 a4=[10,20,30,50]
 plt.bar(a3,a4, linestyle="dashed", linewidth=150, color="red")
 plt.bar(y3, linestyle="dashed", linewidth=150,color="red", height=100)
-
+plt.xlabel("Number",family="snas-serif", fontweight=25 ,color="purple")
+plt.ylabel("Rate2",family="snas-serif", fontweight=25 ,color="purple")

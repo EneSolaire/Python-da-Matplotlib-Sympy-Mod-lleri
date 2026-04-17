@@ -44,6 +44,6 @@ plt.show()
 a3=[10,20,30,50]
 y3=[100,110,125,150]
 a4=[10,20,30,50]
-plt.bar(a3,a4, linestyle="dashed", linewidth="150", color="red")
-plt.bar(y3, linestyle="dotted", linewidth="150" )
+plt.bar(a3,a4, linestyle="dashed", linewidth=150, color="red")
+plt.bar(y3, linestyle="dashed", linewidth=150,color="red", height=100)
 

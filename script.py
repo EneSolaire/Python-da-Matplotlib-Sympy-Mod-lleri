@@ -2,7 +2,7 @@
 from sympy import *
 import math
 import sympy
-import matplotlib
+import matplotlib.pyplot as plt
 #Symbol variable oluşumu ve x**2'ni nintegrali
 x= Symbol ('x')
 expr= integrate(x**x, x)
@@ -27,4 +27,11 @@ plot(z)
 print(integrate((x**2)))
 print(((oo*-1)))
 print(solve(eq**2==3))
+a1= [1200,1300,1400]
+y1=[20,30,40]
+a2=a1= [1200,1300,1400]
+y2=[20,40,50]
+plt.plot(a1,y1, marker=".", markersize="20", markerfacecolor="red" ,linestyle="dashed", markeredgecolor= "blue", linewidth="5", color="black")
+plt.plot(a2,y2,marker=".", markersize="20", markerfacecolor="red" ,linestyle="dashed", markeredgecolor= "blue", linewidth="5", color="black")
+plt.show()
 

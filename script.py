@@ -27,12 +27,23 @@ plot(z)
 print(integrate((x**2)))
 print(((oo*-1)))
 print(solve(eq**2==3),
-#matplotlib'de plot grafik örneği
+#matplotlib  grafikleri ve özelleştirmeleri
 a1= [1200,1300,1400]
+a2=[1200,1400,600]
 y1=[20,30,40]
-a2=a1= [1200,1300,1400]
 y2=[20,40,50]
-plt.plot(a1,y1, marker=".", markersize="20", markerfacecolor="red" ,linestyle="dashed", markeredgecolor= "blue", linewidth="5", color="yellow")
-plt.plot(a2,y2,marker=".", markersize="20", markerfacecolor="red" ,linestyle="dashed", markeredgecolor= "blue", linewidth="5", color="yellow")
+
+plt.plot(a1,y1,marker=".", markersize="20", markerfacecolor="red" ,linestyle="dashed", markeredgecolor= "blue", linewidth="5", color="yellow")
+plt.plot(a2,y2,marker=".", markersize="20", markerfacecolor="red" ,linestyle="dashed", markeredgecolor= "blue", linewidth="5", color="yellow",)
+plt.title("Grafik" , fontsize=15 , family="sans-serif" , color="red",fontweight="bold")
+plt.xlabel("Number",family="snas-serif", fontweight=25 ,color="purple")
+plt.ylabel("Year",family="snas-serif", fontweight=25 ,color="purple" )
 plt.show()
+
+#matplotlib grafik 2
+a3=[10,20,30,50]
+y3=[100,110,125,150]
+a4=[10,20,30,50]
+plt.bar(a3,a4, linestyle="dashed", linewidth="150", color="red")
+plt.bar(y3, linestyle="dotted", linewidth="150" ,)
 
